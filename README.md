@@ -10,8 +10,6 @@ Patched Google TTS for BYD DiLink 3.0. Fixes voice downloads with the tested Mic
 4. Open **Google TTS** and download **Thai** and **English (US)** voices. Play a sample to check each download.
 5. For street names in [patched Google Maps](https://github.com/fangkampanat/gmaps-patches), select **Default (language)** in navigation voice settings. Maps needs its own navigation TTS patch; installing this engine alone does not enable street names in every Maps build.
 
-บน BYD ต้องเอาติ๊ก **Disable Autostart** ออก เพื่ออนุญาตให้ TTS เริ่มอัตโนมัติ
-
 ## Tested scope
 
 BYD Dolphin / DiLink 3.0 / Android 10 / ARM64 / 4 KiB memory pages, with official MicroG-RE 7.2.1 and Maps 26.37 patched with bundle 1.2.2.
