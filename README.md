@@ -2,6 +2,8 @@
 
 Patched Google TTS for BYD DiLink 3.0. Fixes voice downloads with the tested MicroG-RE provider, adds a **Google TTS** launcher icon, and installs as one ARM64 APK.
 
+The Maps setup now uses official MicroG-RE 7.2.1 after our sign-in and location fixes were merged upstream in [PR #272](https://github.com/MorpheApp/MicroG-RE/pull/272). The separate BYD provider fork is no longer maintained. Google TTS still needs the voice-download patch provided here.
+
 ## Download and install
 
 1. Install official [`microg-7.2.1-icon-arm64-v8a.apk`](https://github.com/MorpheApp/MicroG-RE/releases/download/7.2.1/microg-7.2.1-icon-arm64-v8a.apk). The patch checks this exact file's SHA-256; other variants and versions are unsupported.
