@@ -1,0 +1,16 @@
+*.apk
+*.xapk
+*.jar
+*.class
+*.dex
+*.keystore
+*.jks
+*.p12
+config.json
+.env
+.env.*
+build/
+out/
+inputs/
+.idea/
+.vscode/
