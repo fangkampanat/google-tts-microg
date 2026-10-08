@@ -12,7 +12,7 @@ Patched Google TTS for BYD DiLink 3.0. Fixes voice downloads with the tested Mic
 
 ## Tested scope
 
-BYD Dolphin / DiLink 3.0 / Android 10 / ARM64 / 4 KiB memory pages, with official MicroG-RE 7.2.1 and Maps 26.37 patched with bundle 1.2.2.
+BYD Dolphin / DiLink 3.0 / Android 10 / ARM64 / 4 KiB memory pages, with official MicroG-RE 7.2.1. The latest tested Maps version is `26.39.06.984891338`, patched with bundle `1.2.2`; the user reported normal use and TTS working.
 
 Thai downloads and street-name speech, English downloads and place-name speech, and speech after vehicle restart passed on the preceding split build. The single APK preserves its five DEX files; installation, retained voices, launcher access and audible speech were confirmed after merging. A further restart and separate TH/EN maneuver checks were not repeated on the single APK. Other firmware, 16 KiB devices, English-script street-name maneuvers and automatic voice timing while driving are unverified.
 
